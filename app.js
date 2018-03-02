@@ -105,14 +105,14 @@ function post(path, params, method) {
 
 app.post('/', (req, res) => {
     let data;
-    let api_key = 'key-b2e232b515e23a91805b4ca0ae9c098a';
-    let domain = 'sandbox327e859bafc442479e7384439df8c22c.mailgun.org';
+    let api_key = process.env.MAILGUNKEY;
+    let domain = process.env.DOMAINGUN;
     let mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 
     data = {
         from: 'Hamster Wheel Team <postmaster@sandbox327e859bafc442479e7384439df8c22c.mailgun.org>',
-        to: 'briantmoliveira@gmail.com',
+        to: process.env.EMAIL,
         subject: 'Beta Trial',
         text: 'From: ' + req.body.name + '(' + req.body.email + ')\n' + req.body.body
     };
