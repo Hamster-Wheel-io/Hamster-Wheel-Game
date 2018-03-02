@@ -2,3 +2,27 @@
     background-image: url('/img/kid.jpg');
     /* background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
 }
+
+
+@font-face {
+    font-family: 'square_kidsregular';
+    src: url('../fonts/squareki-webfont.woff2') format('woff2'),
+         url('../fonts/squareki-webfont.woff') format('woff'),
+         url('../fonts/squareki-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#block {
+    font-family: 'square_kidsregular';
+    font-size: 86px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #FF0),  color-stop(0.45, #2ff), color-stop(0.75, #2f2), color-stop(0.45, #A00) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#git {
+    color: #0084b4
+}

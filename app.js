@@ -8,6 +8,7 @@ const hbs = require('express-handlebars')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const path = require('path')
+const mailgun = require('mailgun-js')
 
 //Initializing the express server
 const app = express();
@@ -77,7 +78,59 @@ app.use(express.static('./public'));
 require('./routes/index.js')(app);
 
 
+//MAIL GUN
+function post(path, params, method) {
+    method = method || "post"; // Set method to post by default if not specified.
+
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            var hiddenField = document.createElement("input");
+            hiddenField.setAttribute("type", "hidden");
+            hiddenField.setAttribute("name", key);
+            hiddenField.setAttribute("value", params[key]);
+
+            form.appendChild(hiddenField);
+        }
+    }
+
+    document.body.appendChild(form);
+    form.submit();
+}
+
+app.post('/', (req, res) => {
+    let data;
+    let api_key = 'key-b2e232b515e23a91805b4ca0ae9c098a';
+    let domain = 'sandbox327e859bafc442479e7384439df8c22c.mailgun.org';
+    let mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+
+
+    data = {
+        from: 'Hamster Wheel Team <postmaster@sandbox327e859bafc442479e7384439df8c22c.mailgun.org>',
+        to: 'briantmoliveira@gmail.com',
+        subject: 'Beta Trial',
+        text: 'From: ' + req.body.name + '(' + req.body.email + ')\n' + req.body.body
+    };
+
+    mailgun.messages().send(data, function (err, body) {
+        if (err) {
+            // res.render('index', {error: err});
+            console.log("got an error: ", err);
+        } else {
+            res.redirect('/');
+            console.log(body);
+
+        }
+    });
+});
+
+
 //Listen on port number
 app.listen(PORT, function() {
-    console.log('Porfolio listening on port ', PORT);
+    console.log('Hamster Wheel listening on port ', PORT);
 });

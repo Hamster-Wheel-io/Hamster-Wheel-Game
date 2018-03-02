@@ -1,4 +1,4 @@
-<nav class="navbar navbar-toggleable-md fixed-top bg-danger navbar-transparent" color-on-scroll="200">
+<nav class="navbar navbar-toggleable-md fixed-top bg-info navbar-transparent" color-on-scroll="200">
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar"></span>
@@ -17,11 +17,12 @@
 </nav>
 
 	<div id="rainbown" class="page-header" data-parallax="true">
+
 		<div class="filter"></div>
 		<div class="content-center">
 			<div class="container">
 	            <div class="motto">
-	                <h1 class="title">Hamster Wheel</h1>
+	                <h1 id="block" class="title">Hamster Wheel</h1>
 	                <br />
 	                <!-- <button type="button" class="btn btn-outline-neutral btn-round">Download</button> -->
 	            </div>
@@ -112,7 +113,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center">
-                                <a href="#" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="https://github.com/BobDeKort" id="git" class="btn btn-link btn-just-icon btn-github"><i class="fa fa-github"></i></a>
                                 <a href="https://www.linkedin.com/in/bobdekort/" class="btn btn-link btn-just-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
@@ -135,6 +136,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center">
+                                <a href="https://github.com/BriantOliveira" id="git" class="btn btn-link btn-just-icon btn-github"><i class="fa fa-github"></i></a>
                                 <a href="https://twitter.com/TheS0cialHacker" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-twitter"></i></a>
                                 <a href="https://www.linkedin.com/in/briantoliveira/" class="btn btn-link btn-just-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
@@ -158,7 +160,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center">
-                                <a href="#" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="https://github.com/mrnelley" id="git" class="btn btn-link btn-just-icon btn-github"><i class="fa fa-github"></i></a>
                                 <a href="https://www.linkedin.com/in/parnelldkelley/" class="btn btn-link btn-just-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
@@ -181,7 +183,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center">
-                                <a href="#" class="btn btn-link btn-just-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <<a href="https://github.com/PhyllisWong" id="git" class="btn btn-link btn-just-icon btn-github"><i class="fa fa-github"></i></a>
                                 <a href="https://www.linkedin.com/in/phyllis-wong-4baa8831/" class="btn btn-link btn-just-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
@@ -190,27 +192,27 @@
         	</div>
     	</div>
 
-	    <div class="section landing-section">
+	    <div id="contact" class="section landing-section">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-md-8 offset-md-2">
 	                    <h2 class="text-center">Sign Up for our Beta trial</h2>
-	                    <form class="contact-form">
+	                    <form class="contact-form" method="POST" action="/" role="form">
 	                        <div class="row">
 	                            <div class="col-md-6">
 	                                <label>Name</label>
-	                                <input class="form-control" placeholder="Name">
+	                                <input name="name" class="form-control" placeholder="Name">
 	                            </div>
 	                            <div class="col-md-6">
 	                                <label>Email</label>
-	                                <input class="form-control" placeholder="Email">
+	                                <input name="email" class="form-control" placeholder="Email">
 	                            </div>
 	                        </div>
 	                        <label>Message</label>
-	                        <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+	                        <textarea name="body" class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
 	                        <div class="row">
 	                            <div class="col-md-4 offset-md-4">
-	                                <button class="btn btn-danger btn-lg btn-fill">Send Message</button>
+	                                <button class="btn btn-info btn-lg btn-fill">Send Message</button>
 	                            </div>
 	                        </div>
 	                    </form>
@@ -219,3 +221,19 @@
 	        </div>
 	    </div>
     </div>
+    <footer class="footer section-dark">
+   <div class="container">
+       <div class="row">
+           <div class="wow bounceInUp">
+           <nav class="footer-nav">
+               <ul style="width:700px; margin:0 auto; padding-left: 306px;">
+                   <li style="display: inline-block;"><a href="https://www.hamsterwheel.io/">Hamster Wheel © </a></li>
+                   <li><a href="#" class="btn btn-just-icon btn-twitter" style="border-radius: 50%; border-style: solid; border-width: 2px; color: deepskyblue; background-color: transparent; border-color: #c0c0c0; height: 40px; width: 40px;padding: 8px"><i class="fa fa-twitter"></i></a></li>
+                   <li><a href="#" class="btn btn-just-icon btn-facebook" style="border-radius: 50%; border-style: solid; border-width: 2px; height: 40px; width: 40px;padding: 8px; color: #0B67E7; background-color: transparent;border-color: #c0c0c0;"><i class="fa fa-facebook"></i></a></li>
+                   <li><a href="#" class="btn btn-just-icon btn-instagram" style="border-radius: 50%; border-style: solid; border-width: 2px; height: 40px; width: 40px;padding: 8px ;color:#893dc2;background-color: transparent;border-color: #c0c0c0;"><i class="fa fa-instagram"></i></a></li>
+               </ul>
+           </nav>
+           </div>
+       </div>
+   </div>
+</footer>

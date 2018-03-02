@@ -4,7 +4,7 @@
   "description": "Educational mobile game ",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js" ,
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Phyllis Wong, Bob De Kort, Nelley Kelly, Elliot Oliveira",
@@ -16,6 +16,7 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "jsonwebtoken": "^8.1.1",
+    "mailgun-js": "^0.16.0",
     "path": "^0.12.7",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
