@@ -27,6 +27,8 @@
     color: #0084b4
 }
 
-#MS {
-    background-image: url('/img/make.png');
+.makeschool {
+    width: 22px;
+    height: 14px;
+    margin-bottom: 10px;
 }
