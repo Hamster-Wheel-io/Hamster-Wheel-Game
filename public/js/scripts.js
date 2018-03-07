@@ -4,6 +4,16 @@
 // $('#rainbow').fadeOut(2000, function() {
 //     $('this').css("display", "none")
 // })
+const mq = window.matchMedia( "(min-width: 600px)" );
+if (mq.matches) {
+  // window width is at least 600px
+  console.log($(window).width());
+} else {
+  // window width is less than 600px
+  $('#rainbow').css('display', 'none')
+  $('#rainbow2').css('display', 'none')
+
+}
 
 $('#rainbow2').delay(2000).fadeIn(4000, function() {
     $('#rainbow2').css("z-index", "1");
