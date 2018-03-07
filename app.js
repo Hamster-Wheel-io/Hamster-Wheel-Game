@@ -121,7 +121,7 @@ app.post('/', (req, res) => {
             // res.render('index', {error: err});
             console.log("got an error: ", err);
         } else {
-            res.redirect('/');
+            res.redirect('index');
             console.log(body);
 
         }
