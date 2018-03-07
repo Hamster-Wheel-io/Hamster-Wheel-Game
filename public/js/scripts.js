@@ -14,14 +14,12 @@ $('#rainbow3').delay(8000).fadeIn(2000, function() {
 });
 
 $(window).on('scroll', () =>{
-    console.log($(window).scrollTop());
     if ( $(window).scrollTop() > 532  && $(window).scrollTop() < 1166){
         $(".navbar-brand").css('color', 'black');
     }
 });
 
 $(window).on('scroll', () =>{
-    console.log($(window).scrollTop());
     if (( $(window).scrollTop() > 532 ) && ($(window).scrollTop() < 1166)){
         $(".nav-link").css('color', 'black');
     }
@@ -29,9 +27,12 @@ $(window).on('scroll', () =>{
 });
 
 $(window).on('scroll', () =>{
-    console.log($(window).scrollTop());
     if (( $(window).scrollTop() > 532 ) && ($(window).scrollTop() < 1166)){
         $(".nav-link").css('color', 'black');
     }
     else {$(".navbar-brand").css('color', 'white')};
 });
+
+// $(document).onReady(() => {
+//     if ($(window).width() < 500 )
+// });
