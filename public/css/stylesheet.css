@@ -81,3 +81,9 @@
 #navigation {
 
 }
+
+@media only screen and (max-width: 500px) {
+    .img {
+        display: none;
+    }
+}
