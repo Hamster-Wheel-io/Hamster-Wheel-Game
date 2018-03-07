@@ -6,7 +6,6 @@ const cookieParser = require('cookie-parser')
 const express = require('express')
 const hbs = require('express-handlebars')
 const jwt = require('jsonwebtoken')
-const bcrypt = require('bcrypt')
 const path = require('path')
 const mailgun = require('mailgun-js')
 
