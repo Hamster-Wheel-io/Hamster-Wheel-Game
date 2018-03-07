@@ -7,7 +7,7 @@
   max-height: 999px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   z-index: 1;
 }
 
@@ -21,7 +21,7 @@
   /* max-height: 999px; */
   overflow: hidden;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   z-index: 2;
   position: absolute;
   top: 0; left: 0;
@@ -37,7 +37,7 @@
   max-height: 999px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   z-index: 3;
   position: absolute;
   top: 0; left: 0;
