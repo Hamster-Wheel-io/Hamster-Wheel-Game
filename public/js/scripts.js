@@ -1,16 +1,16 @@
 
 
 
-// $('#rainbown').fadeOut(2000, function() {
+// $('#rainbow').fadeOut(2000, function() {
 //     $('this').css("display", "none")
 // })
 
-$('#rainbown2').delay(2000).fadeIn(4000, function() {
-    $('#rainbown2').css("z-index", "1");
+$('#rainbow2').delay(2000).fadeIn(4000, function() {
+    $('#rainbow2').css("z-index", "1");
 });
 
-$('#rainbown3').delay(8000).fadeIn(2000, function() {
-    $("#rainbown3").css("z-index", "1");
+$('#rainbow3').delay(8000).fadeIn(2000, function() {
+    $("#rainbow3").css("z-index", "1");
 });
 
 $(window).on('scroll', () =>{

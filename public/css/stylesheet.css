@@ -1,4 +1,4 @@
-#rainbown {
+#rainbow {
   background-image: url('/img/kid.jpg');
   background-color: #B2AFAB;
   background-position: center center;
@@ -11,7 +11,7 @@
   z-index: 1;
 }
 
-#rainbown2 {
+#rainbow2 {
     display: none;
   background-image: url('https://images.pexels.com/photos/256468/pexels-photo-256468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
   background-color: #B2AFAB;
@@ -27,7 +27,7 @@
   top: 0; left: 0;
 }
 
-#rainbown3 {
+#rainbow3 {
     display: none;
   background-image: url('/img/kid.jpg');
   background-color: #B2AFAB;
@@ -84,6 +84,12 @@
 
 @media only screen and (max-width: 500px) {
     .img {
+        display: none;
+    },
+    #rainbow2 {
+        display: none;
+    }
+    #rainbow3 {
         display: none;
     }
 }
