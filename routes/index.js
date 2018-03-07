@@ -1,6 +1,7 @@
 /*************************************
 * Main controller
 **************************************/
+require('dotenv').load();
 
 module.exports = function(app) {
 

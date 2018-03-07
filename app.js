@@ -8,17 +8,26 @@ const hbs = require('express-handlebars')
 const jwt = require('jsonwebtoken')
 const path = require('path')
 const mailgun = require('mailgun-js')
+const dotenv = require('dotenv')
+
+
 
 //Initializing the express server
 const app = express();
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 5000
 
+require('dotenv').load();
+
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
 /****************************************************
  *  SQL Connection
  ***************************************************/
  const Sequelize = require('sequelize');
- const sequelize = new Sequelize('hamster-wheel', process.env.DBUSER, null, { dialect: 'postgres', logging: false });
+ const sequelize = new Sequelize('hamster-wheel', 'briantoliveira', null, { dialect: 'postgres', logging: false });
 
  sequelize
    .authenticate()
@@ -104,14 +113,14 @@ function post(path, params, method) {
 
 app.post('/', (req, res) => {
     let data;
-    let api_key = process.env.MAILGUNKEY;
-    let domain = process.env.DOMAINGUN;
+    let api_key = 'key-b2e232b515e23a91805b4ca0ae9c098a';
+    let domain = 'sandbox327e859bafc442479e7384439df8c22c.mailgun.org';
     let mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 
     data = {
         from: 'Hamster Wheel Team <postmaster@sandbox327e859bafc442479e7384439df8c22c.mailgun.org>',
-        to: process.env.EMAIL,
+        to: 'briantmoliveira@gmail.com',
         subject: 'Beta Trial',
         text: 'From: ' + req.body.name + '(' + req.body.email + ')\n' + req.body.body
     };
@@ -121,7 +130,7 @@ app.post('/', (req, res) => {
             // res.render('index', {error: err});
             console.log("got an error: ", err);
         } else {
-            res.redirect('index');
+            res.redirect('/');
             console.log(body);
 
         }
