@@ -13,7 +13,7 @@ const mailgun = require('mailgun-js')
 //Initializing the express server
 const app = express();
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 4000
 
 /****************************************************
  *  SQL Connection

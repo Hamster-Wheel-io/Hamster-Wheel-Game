@@ -1,6 +1,46 @@
 #rainbown {
-    background-image: url('/img/kid.jpg');
-    /* background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+  background-image: url('/img/kid.jpg');
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+#rainbown2 {
+    display: none;
+  background-image: url('https://images.pexels.com/photos/256468/pexels-photo-256468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  /* max-height: 999px; */
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+#rainbown3 {
+    display: none;
+  background-image: url('/img/kid.jpg');
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0; left: 0;
 }
 
 
@@ -13,10 +53,11 @@
     font-style: normal;
 
 }
+
 #block {
     font-family: 'square_kidsregular';
     font-size: 86px;
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #FF0),  color-stop(0.45, #2ff), color-stop(0.75, #2f2), color-stop(0.45, #A00) );
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #A00), color-stop(0.3, #22f), color-stop(0.40, #2ff), color-stop(0.6, #FF0),  color-stop(0.40, #2ff), color-stop(0.75, #2f2), color-stop(0.45, #f2f) );
     background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
     color:transparent;
     -webkit-background-clip: text;
@@ -35,4 +76,8 @@
 
 #about {
     background-color: #000;
+}
+
+#navigation {
+
 }
