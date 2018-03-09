@@ -74,7 +74,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(verifyAuthentication)
 
 //Setup handlebars view engine and pass in parameters
-app.engine('.hbs', hbs({ defaultLayout: 'main', extname: 'hbs' }));
+app.engine('hbs', hbs({ defaultLayout: 'main', extname: 'hbs' }));
 app.set('view engine', 'hbs')
 
 //Setup handlebars view
