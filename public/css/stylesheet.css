@@ -82,7 +82,7 @@
 /* No greater than 900px, no less than 400px */
 @media (max-width:900px) and (min-width:300px) {
 
-    .rainbow, .rainbow2, .rainbow3 {
+    .rainbow {
         display: none;
     }
 
