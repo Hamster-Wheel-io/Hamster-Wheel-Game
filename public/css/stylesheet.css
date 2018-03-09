@@ -3,7 +3,7 @@
   background-color: #B2AFAB;
   background-position: center center;
   background-size: cover;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-height: 999px;
   overflow: hidden;
   position: relative;
@@ -82,7 +82,7 @@
 /* No greater than 900px, no less than 400px */
 @media (max-width:900px) and (min-width:300px) {
 
-    .rainbow {
+    #rainbow {
         display: none;
     }
 
