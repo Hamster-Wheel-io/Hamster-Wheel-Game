@@ -8,10 +8,10 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: -1;
 }
 
-#rainbow2 {
+/* #rainbow2 {
     display: none;
   background-image: url('https://images.pexels.com/photos/256468/pexels-photo-256468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
   background-color: #B2AFAB;
@@ -19,15 +19,15 @@
   background-size: cover;
   min-height: 100vh;
   /* max-height: 999px; */
-  overflow: hidden;
+  /* overflow: hidden;
   position: relative;
   width: 100%;
   z-index: 2;
   position: absolute;
   top: 0; left: 0;
-}
+} */
 
-#rainbow3 {
+/* #rainbow3 {
     display: none;
   background-image: url('/img/kid.jpg');
   background-color: #B2AFAB;
@@ -41,7 +41,7 @@
   z-index: 3;
   position: absolute;
   top: 0; left: 0;
-}
+} */
 
 
 @font-face {

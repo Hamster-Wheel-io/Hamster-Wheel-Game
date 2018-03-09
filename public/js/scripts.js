@@ -29,7 +29,3 @@ $(window).on('scroll', () =>{
     }
     else {$(".navbar-brand").css('color', 'white')};
 });
-
-// $(document).onReady(() => {
-//     if ($(window).width() < 500 )
-// });
