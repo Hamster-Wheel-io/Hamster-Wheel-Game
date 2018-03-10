@@ -2,13 +2,13 @@
 //     $('this').css("display", "none")
 // })
 
-$('#rainbow2').delay(2000).fadeIn(4000, function() {
-    $('#rainbow2').css("z-index", "1");
-});
-
-$('#rainbow3').delay(8000).fadeIn(2000, function() {
-    $("#rainbow3").css("z-index", "1");
-});
+// $('#rainbow2').delay(2000).fadeIn(4000, function() {
+//     $('#rainbow2').css("z-index", "1");
+// });
+//
+// $('#rainbow3').delay(8000).fadeIn(2000, function() {
+//     $("#rainbow3").css("z-index", "1");
+// });
 
 $(window).on('scroll', () =>{
     if ( $(window).scrollTop() > 532  && $(window).scrollTop() < 1166){

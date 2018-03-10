@@ -69,6 +69,7 @@ if (process.env.NODE_ENV !== 'production') {
  * Middlewares
  ********************************************/
 app.use(express.static(__dirname));
+app.use(express.static('./public'));
 app.use(cookieParser())
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(verifyAuthentication)
@@ -76,10 +77,6 @@ app.use(verifyAuthentication)
 //Setup handlebars view engine and pass in parameters
 app.engine('hbs', hbs({ defaultLayout: 'main', extname: 'hbs' }));
 app.set('view engine', 'hbs')
-
-//Setup handlebars view
-app.use(express.static('./public'));
-
 
 
 //Load routes
