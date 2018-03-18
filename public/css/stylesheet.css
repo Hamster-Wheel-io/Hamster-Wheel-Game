@@ -181,14 +181,15 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
       .motto {
-          width: 376px;
-          bottom: 83px;
+          width: 326px;
+          bottom: 136px;
+          right: 250px
       }
       .logo {
-          /* transform: scale(.4); */
+          transform: scale(.4);
           width: 376px;
-          /* margin-left: 115px;
-          margin-bottom: 112px; */
+          margin-left: 115px;
+          margin-bottom: 112px;
       }
 }
 
