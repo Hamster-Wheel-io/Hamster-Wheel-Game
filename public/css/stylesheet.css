@@ -133,7 +133,7 @@
           margin-left: 126px;
           margin-bottom: 112px; */
           max-width: 100%;
-          min-width: 300px;
+          /* min-width: 300px; */
           height: auto;
       }
 }
