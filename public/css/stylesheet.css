@@ -182,7 +182,7 @@
   and (orientation: portrait) {
       .motto {
           width: 326px;
-          bottom: 136px;
+          bottom: 100px;
           right: 250px
       }
       .logo {
