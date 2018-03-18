@@ -1,5 +1,5 @@
 .page-header{
-  background-image: url('/img/background.png');
+  background-image: url('/img/hamster.png');
   /* background-image: url('/img/logo.png'); */
   background-color: #B2AFAB;
   background-position: center center;
@@ -13,11 +13,11 @@
 }
 
 
-.logo {
+/* .page-header {
     width: 116px;
     background-position: center;
     background-size: cover;
-}
+} */
 
 /* #rainbow2 {
     display: none;
@@ -104,7 +104,7 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -121,7 +121,7 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -140,7 +140,7 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -157,7 +157,7 @@
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -173,7 +173,7 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -189,7 +189,7 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -207,7 +207,7 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -224,7 +224,7 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -241,7 +241,7 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -259,7 +259,7 @@
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -275,7 +275,7 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -293,7 +293,7 @@
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -311,7 +311,7 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait)
   .body {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -328,7 +328,7 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
@@ -345,7 +345,7 @@
   and (max-device-width: 2048px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-      .logo {
+      .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
