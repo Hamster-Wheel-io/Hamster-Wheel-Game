@@ -1,5 +1,5 @@
 .page-header{
-  background-image: url('/img/hamster.png');
+  background-image: url('/img/background.png');
   /* background-image: url('/img/logo.png'); */
   background-color: #B2AFAB;
   background-position: center center;
@@ -12,12 +12,17 @@
   z-index: -1;
 }
 
+.motto {
+    right: 110px;
+    /* top: 98px; */
+}
 
-/* .page-header {
-    width: 116px;
+.logo {
+    width: 1369px;
+    margin-top: 255px;
     background-position: center;
     background-size: cover;
-} */
+}
 
 /* #rainbow2 {
     display: none;
@@ -100,42 +105,42 @@
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
+/* @media only screen
+  and (min-device-width: 640px)
+  and (max-device-width: 113px)
   and (-webkit-min-device-pixel-ratio: 2) {
       .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
-          width: 400px;
-          margin-left: 126px;
-          margin-bottom: 112px;
-      }
+          /* width: 400px; */
+          /* margin-left: 126px; */
+          /* margin-bottom: 112px; */
+      /* } */
 
-}
+/* } */
 
 /* Portrait */
-@media only screen
+/* @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-      .page-header {
+  and (orientation: portrait) { */
+      /* .page-header {
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
-          /* width: 400px; */
+          /* width: 400px;
           margin-left: 126px;
           margin-bottom: 112px;
           max-width: 100%;
-          /* min-width: 300px; */
+          /* min-width: 300px;
           height: auto;
       }
-}
+} */
 
 /* Landscape */
-@media only screen
+/* @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -144,11 +149,11 @@
           /* transform: scale(.4); */
           /* margin-left: -100px;
           margin-right: -100px; */
-          width: 400px;
-          margin-left: 140px;
-          margin-bottom: 112px;
-      }
-}
+          /* width: 400px; */
+          /* margin-left: 140px; */
+          /* margin-bottom: 112px; */
+      /* } */
+/* } */
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
