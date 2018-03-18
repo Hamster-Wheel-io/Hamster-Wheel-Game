@@ -1,5 +1,6 @@
 .page-header{
-  background-image: url('https://images.pexels.com/photos/256468/pexels-photo-256468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-image: url('/img/background.png');
+  /* background-image: url('/img/logo.png'); */
   background-color: #B2AFAB;
   background-position: center center;
   background-size: cover;
@@ -9,6 +10,17 @@
   position: relative;
   width: 100%;
   z-index: -1;
+}
+
+.motto {
+    right: 180px;
+    top: 95px;
+}
+
+.logo {
+    width: 1486px;
+    background-position: center;
+    background-size: cover;
 }
 
 /* #rainbow2 {
