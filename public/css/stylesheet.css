@@ -225,11 +225,11 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    
+
       .page-header {
           transform: scale(.4);
           width: 510px;
-          margin-left: 115px;
+          margin-left: 130px;
           margin-bottom: 112px;
       }
 
