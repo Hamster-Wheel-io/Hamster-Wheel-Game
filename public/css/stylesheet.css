@@ -184,11 +184,13 @@
           bottom: 83px;
       }
       .logo {
-          width: 376px;
-         -webkit-background-size: cover;
-         -moz-background-size: cover;
-         -o-background-size: cover;
-         background-size: cover;
+          width: 500px;
+          margin-left: 184px;
+          margin-bottom: 112px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
       }
 }
 
@@ -204,7 +206,7 @@
           right: 250px
       }
       .logo {
-          transform: scale(.5);
+          /* transform: scale(.5); */
           width: 500px;
           margin-left: 184px;
           margin-bottom: 112px;
@@ -232,18 +234,27 @@
 
 /* } */
 
-/* Iphone 7 */
-/* @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
+/*  Iphone 7 Query   */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-      .page-header {
-          transform: scale(.4);
-          width: 510px;
-          margin-left: 130px;
-          margin-bottom: 112px;
+  and (orientation: portrait) {
+      .motto {
+          width: 326px;
+          bottom: 100px;
+          right: 250px
       }
-
-} */
+      .logo {
+          /* transform: scale(.5); */
+          width: 500px;
+          margin-left: 184px;
+          margin-bottom: 112px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+}
