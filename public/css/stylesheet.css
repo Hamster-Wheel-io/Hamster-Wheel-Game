@@ -206,8 +206,12 @@
       .logo {
           transform: scale(.5);
           width: 500px;
-          margin-left: 150px;
+          margin-left: 184px;
           margin-bottom: 112px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
       }
 }
 
