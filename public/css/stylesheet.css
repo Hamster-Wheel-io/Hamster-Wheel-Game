@@ -178,6 +178,10 @@
       .logo {
           /* transform: scale(.4); */
           width: 376px;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
           /* margin-left: 115px;
           margin-bottom: 112px; */
       }
