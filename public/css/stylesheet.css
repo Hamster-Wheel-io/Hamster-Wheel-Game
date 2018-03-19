@@ -225,9 +225,14 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-      .html {
+      /* .html {
           width: 750px;
-      }
+      } */
+      html {
+           width: 750px;
+           overflow:hidden;
+           overflow-x: hidden;
+       }
 
       .page-header {
           transform: scale(.4);
