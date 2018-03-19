@@ -225,6 +225,10 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+      .html {
+          width: 750px;
+      }
+
       .page-header {
           transform: scale(.4);
           width: 510px;
