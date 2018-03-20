@@ -258,26 +258,3 @@
           background-size: cover;
       }
 }
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-      .motto {
-          width: 326px;
-          bottom: 100px;
-          right: 250px
-      }
-      .logo {
-          /* transform: scale(.5); */
-          width: 500px;
-          margin-left: 130px;
-          margin-bottom: 112px;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-      }
-}
