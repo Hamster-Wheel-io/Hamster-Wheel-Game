@@ -240,6 +240,7 @@
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 677px)
+  and (orientation:portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
       .motto {
           width: 326px;
