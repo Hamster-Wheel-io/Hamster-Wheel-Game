@@ -108,6 +108,15 @@
     background-color: #000;
 }
 
+.logo {
+    width: 1386px;
+    margin-top: 337px;
+    margin-left: -15px;
+    padding-left: 50px;
+    margin-bottom: 122px;
+    position: relative;
+}
+
 
 /* No greater than 900px, no less than 400px */
 /* @media (max-width:900px) and (min-width:300px) {
@@ -209,7 +218,7 @@
       .logo {
           /* transform: scale(.5); */
           width: 383px;
-          margin-left: 219px;
+          margin-left: 194px;
           margin-bottom: 112px;
           -webkit-background-size: cover;
           -moz-background-size: cover;
@@ -260,23 +269,7 @@
       }
 }
 
-@media screen and (orientation:landscape) {
-   /* Landscape styles here */
-   .logo {
-       /* transform: scale(.5); */
-       width: 700px;
-       margin-top: 400px;
-       margin-left: 150px;
-       padding-left: 50px;
-       margin-bottom: 112px;
-       position: relative;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
-   }
 
-}
 /* Iphone 7 */
 @media only screen
 and (min-device-width : 414px)
