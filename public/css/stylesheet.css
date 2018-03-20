@@ -178,7 +178,8 @@
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
       .motto {
           width: 376px;
           bottom: 83px;
@@ -207,8 +208,8 @@
       }
       .logo {
           /* transform: scale(.5); */
-          width: 500px;
-          margin-left: 184px;
+          width: 383px;
+          margin-left: 219px;
           margin-bottom: 112px;
           -webkit-background-size: cover;
           -moz-background-size: cover;
@@ -248,10 +249,10 @@
       }
       .logo {
           /* transform: scale(.5); */
-          width: 500px;
-          margin-left: 162px;
+          width: 455px;
+          margin-left: 186px;
           padding-left: 50px;
-          margin-bottom: 112px;
+          position: relative;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -268,6 +269,7 @@
        margin-left: 150px;
        padding-left: 50px;
        margin-bottom: 112px;
+       position: relative;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover;
@@ -291,6 +293,7 @@ and (orientation:landscape) {
           margin-left: 276px;
           padding-left: 20px;
           margin-bottom: 112px;
+          position: relative;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -315,9 +318,26 @@ and (orientation:landscape) {
           margin-left: 183px;
           padding-left: 50px;
           margin-bottom: 112px;
+          position: relative;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
       }
+}
+
+/* Iphone 5 */
+@media only screen
+and (-webkit-min-device-pixel-ratio: 2)
+and (max-device-width: 568px)
+and (min-device-width: 580px)
+and (orientation: portrait) {
+    .logo {
+        width: 398px;
+        margin-left: 22px;
+        padding-left: 50px;
+        position: fixed;
+        margin-top: 45px;
+
+    }
 }
