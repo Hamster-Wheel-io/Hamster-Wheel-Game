@@ -252,10 +252,25 @@
           margin-left: 185px;
           padding-left: 50px;
           margin-bottom: 112px;
-          position: relative;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
       }
+}
+
+@media screen and (orientation:landscape) {
+   /* Landscape styles here */
+   .logo {
+       /* transform: scale(.5); */
+       width: 500px;
+       margin-left: 185px;
+       padding-left: 50px;
+       margin-bottom: 112px;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+   }
+
 }
