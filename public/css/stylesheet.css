@@ -276,3 +276,23 @@
 
 }
 /* Iphone 7 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+      .motto {
+          width: 326px;
+          bottom: 100px;
+          right: 250px
+      }
+      .logo {
+          /* transform: scale(.5); */
+          width: 500px;
+          margin-left: 155px;
+          padding-left: 50px;
+          margin-bottom: 112px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+}
