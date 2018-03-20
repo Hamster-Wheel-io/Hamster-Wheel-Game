@@ -277,7 +277,7 @@
 }
 /* Iphone 7 */
 @media only screen
-  and (min-device-width: 320px)
+  and (min-device-width: 300px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation:portrait) {
@@ -289,7 +289,7 @@
       .logo {
           /* transform: scale(.5); */
           width: 500px;
-          margin-left: 145px;
+          margin-left: 155px;
           padding-left: 50px;
           margin-bottom: 112px;
           -webkit-background-size: cover;
