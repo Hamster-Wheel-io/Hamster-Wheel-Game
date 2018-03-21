@@ -128,58 +128,6 @@
 
 } */
 
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-/* @media only screen
-  and (min-device-width: 640px)
-  and (max-device-width: 113px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      .page-header {
-          /* transform: scale(.4); */
-          /* margin-left: -100px;
-          margin-right: -100px; */
-          /* width: 400px; */
-          /* margin-left: 126px; */
-          /* margin-bottom: 112px; */
-      /* } */
-
-/* } */
-
-/* Portrait */
-/* @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { */
-      /* .page-header {
-          /* transform: scale(.4); */
-          /* margin-left: -100px;
-          margin-right: -100px; */
-          /* width: 400px;
-          margin-left: 126px;
-          margin-bottom: 112px;
-          max-width: 100%;
-          /* min-width: 300px;
-          height: auto;
-      }
-} */
-
-/* Landscape */
-/* @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-      .page-header {
-          /* transform: scale(.4); */
-          /* margin-left: -100px;
-          margin-right: -100px; */
-          /* width: 400px; */
-          /* margin-left: 140px; */
-          /* margin-bottom: 112px; */
-      /* } */
-/* } */
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
@@ -227,22 +175,6 @@
       }
 }
 
-/* Landscape */
-/* @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-      .page-header {
-          /* transform: scale(.4); */
-          /* margin-left: -100px;
-          margin-right: -100px; */
-          /* width: 510px;
-          margin-left: 115px;
-          margin-bottom: 112px;
-      } */
-
-/* } */
 
 /*  Iphone 7 Query   */
 
@@ -334,3 +266,55 @@ and (orientation: portrait) {
 
     }
 }
+
+
+/* Iphone X */
+
+/* Portrait view */
+
+/* @media only screen
+and (-webkit-min-device-pixel-ratio: 2)
+and (max-device-width: 812px)
+and (min-device-width: 375px)
+and (orientation: portrait) {
+    .logo {
+        width: 487px;
+        margin-left: 16px;
+        padding-left: 34px;
+        position: relative;
+        margin-top: 8px;
+
+    }
+} */
+
+
+@media only screen
+    and (device-width : 812px)
+    and (device-height : 375px)
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation:landscape)  {
+    .logo {
+        width: 728px;
+        margin-left: -269px;
+        padding-left: 50px;
+        position: fixed;
+        margin-top: -106px;
+
+    }
+}
+
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation:landscape) {
+
+        .logo {
+            width: 790px;
+            margin-left: 75px;
+            padding-left: 50px;
+            position: fixed;
+            margin-top: 238px;
+
+        }
+    }
