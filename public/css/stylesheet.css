@@ -395,7 +395,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .logo {
         width: 700px;
-        margin-left: -255px;
+        margin-left: -300px;
         padding-left: 0px;
         position: fixed;
         margin-top: -140px;
