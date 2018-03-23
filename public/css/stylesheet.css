@@ -402,3 +402,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     }
 }
+
+
+@media only screen
+    and (device-width : 2436px)
+    and (device-height : 1125px)
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation:landscape)  {
+    .logo {
+        width: 728px;
+        margin-left: -269px;
+        padding-left: 50px;
+        position: fixed;
+        margin-top: -106px;
+
+    }
+}
