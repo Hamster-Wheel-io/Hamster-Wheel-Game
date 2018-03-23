@@ -327,7 +327,7 @@ and (max-device-width : 2048px)
 and (orientation : portrait) {
 
     .logo {
-        width: 790px;
+        width: 500px;
         margin-left: -285px;
         padding-left: 0px;
         position: fixed;
