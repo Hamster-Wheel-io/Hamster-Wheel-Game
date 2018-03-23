@@ -18,9 +18,8 @@ The wheels of learning keep on turning.
 
 ## Authors
 
-WIP: Check with PM for guide.
-* **Elliot Briant - *Full Stack Developer* 
-* **Parnell Kelley - *Product Manager* 
+* **Elliot Briant** - *Full Stack Developer* 
+* **Parnell Kelley** - *Product Manager* 
 * **Bob De Kort** - *iOS Developer* - [Hamster Wheel](https://github.com/BobDeKort/HamsterWheel)
 * **Phyllis Wong** - *iOS Developer* - [Hamster Wheel](https://github.com/BobDeKort/HamsterWheel)
 
@@ -31,7 +30,7 @@ WIP: Check with PM for guide.
 
 WIP: any libraries, or downloaded code we include, shout outs to those who help. Thanks Mitchell!
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 * Hat tip to anyone who's code was used
 * Inspiration
