@@ -376,7 +376,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 1)  {
     .logo {
-        width: 500px;
+        width: 600px;
         margin-left: -245px;
         padding-left: 0px;
         position: fixed;
