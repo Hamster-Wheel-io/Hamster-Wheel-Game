@@ -411,7 +411,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     and (orientation:landscape)  {
     .logo {
         width: 728px;
-        margin-left: -469px;
+        margin-left: -569px;
         padding-left: 50px;
         position: fixed;
         margin-top: -106px;
