@@ -402,35 +402,3 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     }
 }
-
-/*  Ipad */
-
-@media only screen
-and (max-device-width: 1024px)
-and (min-device-width: 768px)
-and (orientation: portrait) {
-    .logo {
-        width: 700px;
-        margin-left: -248px;
-        padding-left: 0px;
-        position: fixed;
-        margin-top: -140px;
-
-    }
-}
-
-@media only screen
-and (-webkit-min-device-pixel-ratio: 1)
-and (max-device-width: 1024px)
-and (min-device-width: 768px)
-and (orientation: landscape) {
-    .logo {
-
-        width: 800px;
-        margin-left: -285px;
-        padding-left: 0px;
-        position: fixed;
-        margin-top: -140px;
-
-    }
-}
