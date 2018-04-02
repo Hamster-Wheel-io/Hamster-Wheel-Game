@@ -19,7 +19,6 @@ The wheels of learning keep on turning.
 ## Authors
 
 * **Elliot Briant** - *Full Stack Developer* 
-* **Parnell Kelley** - *Product Manager* 
 * **Bob De Kort** - *iOS Developer* - [Hamster Wheel](https://github.com/BobDeKort/HamsterWheel)
 * **Phyllis Wong** - *iOS Developer* - [Hamster Wheel](https://github.com/BobDeKort/HamsterWheel)
 
