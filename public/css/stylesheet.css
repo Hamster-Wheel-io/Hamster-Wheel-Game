@@ -13,12 +13,9 @@
 
 .page-header{
   background-image: url('/img/background.png');
-  /* background-image: url('/img/logo.png'); */
   background-color: #B2AFAB;
   background-position: center center;
   background-size: cover;
-  /* min-height: 100vh; */
-  /* max-height: 999px; */
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -27,7 +24,6 @@
 
 .motto {
     right: 110px;
-    /* top: 98px; */
 }
 
 .logo {
@@ -116,18 +112,6 @@
     margin-bottom: 122px;
     position: relative;
 }
-
-
-/* No greater than 900px, no less than 400px */
-/* @media (max-width:900px) and (min-width:300px) {
-
-    #rainbow {
-        display: none;
-    }
-
-
-} */
-
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
@@ -269,24 +253,6 @@ and (orientation: portrait) {
 
 
 /* Iphone X */
-
-/* Portrait view */
-
-/* @media only screen
-and (-webkit-min-device-pixel-ratio: 2)
-and (max-device-width: 812px)
-and (min-device-width: 375px)
-and (orientation: portrait) {
-    .logo {
-        width: 487px;
-        margin-left: 16px;
-        padding-left: 34px;
-        position: relative;
-        margin-top: 8px;
-
-    }
-} */
-
 
 @media only screen
     and (device-width : 812px)
