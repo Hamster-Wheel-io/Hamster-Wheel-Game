@@ -118,7 +118,7 @@ app.post('/', (req, res) => {
     data = {
         from: 'Hamster Wheel Team <postmaster@sandbox327e859bafc442479e7384439df8c22c.mailgun.org>',
         to: 'briantmoliveira@gmail.com',
-        subject: 'Beta Trial',
+        subject: 'Contact us',
         text: 'From: ' + req.body.name + '(' + req.body.email + ')\n' + req.body.body
     };
 
@@ -126,11 +126,12 @@ app.post('/', (req, res) => {
         if (err) {
             // res.render('index', {error: err});
             console.log("got an error: ", err);
-        } else {
-            res.redirect('/');
-            console.log(body);
-
         }
+        // else {
+        //     res.redirect('/');
+        //     console.log(body);
+        //
+        // }
     });
 });
 

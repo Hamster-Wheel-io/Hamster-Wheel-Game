@@ -226,8 +226,32 @@
 	                        <textarea name="body" class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
 	                        <div class="row">
 	                            <div class="col-md-4 offset-md-4">
-	                                <button class="btn btn-info btn-lg btn-fill">Send Message</button>
+	                                <button class="btn btn-info btn-lg btn-fill" data-toggle="modal" data-target="#myModal">Send Message</button>
 	                            </div>
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                            	               <div class="modal-header">
+                            	                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            	                         <h4 class="modal-title" id="myModalLabel">Support Team</h4>
+                            	                </div>
+                                            	<div class="modal-body">
+                                                   Your message was submitted successfully!!
+                                                   <br>
+                                                   Our team will evaluate your message and contact you soon. Thank you!
+                                            	</div>
+                                        	    <div class="modal-footer">
+                                            	   <div class="left-side">
+                                            		   <button type="button" class="btn btn-default btn-link" data-dismiss="modal" onclick="javascript:window.location.reload('/')" class="close" data-dismiss="modal" aria-hidden="true">Home</button>
+                                            	   </div>
+                                                   <div class="divider"></div>
+                                            	   <div class="right-side">
+                                            		   <button type="button" class="btn btn-danger btn-link" data-dismiss="modal" onclick="javascript:window.location.reload('/')" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+                                            	   </div>
+                            	               </div>
+                                        </div>
+                                    </div>
+                                </div>
 	                        </div>
 	                    </form>
 	                </div>
@@ -235,6 +259,9 @@
 	        </div>
 	    </div>
     </div>
+
+
+
 <footer class="footer section-dark">
    <div class="container">
        <div class="row">
