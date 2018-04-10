@@ -81,6 +81,7 @@ app.set('view engine', 'hbs')
 
 //Load routes
 require('./routes/index.js')(app);
+require('./routes/images.js')(app);
 
 
 //MAIL GUN
