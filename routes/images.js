@@ -18,6 +18,6 @@ const draw = require('../json/draw');
 module.exports = function(app) {
 
     app.get('/images', (req, res) => {
-        res.render('draw', {draw});
+        res.json('draw', {draw});
     });
 };
