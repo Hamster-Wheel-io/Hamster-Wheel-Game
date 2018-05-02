@@ -1,2 +1,5 @@
 .env
 .DS_Store
+node_modules
+public/video/*.mov
+public/video/*.mp4
