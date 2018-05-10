@@ -4,10 +4,10 @@ module.exports = [
             img: 'http://hostingview.info/wp-content/uploads/2017/12/blank-coloring-pages-blank-coloring-pages-funycoloring-ideas.jpg'
         },
         {
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJXCdqMreTF8S2twnUCZnpoTqK10f4k5K3gI7rEzjYGKka4rHhA'
+            img: 'https://www-tc.pbs.org/parents/fun-and-games/files/2011/12/george-coloringpage.gif'
         },
         {
-            img: 'http://www.coloringpages101.com/coloring-pages/Cartoon-Movies/Trolls/Branch-from-Trolls-coloring-page.png'
+            img: 'http://weissbgerlaw.com/wp-content/uploads/2018/04/nice-coloring-pictures-of-pokemon-draw-all-pages-84-on-online-with.jpg'
         },
         {
             img: 'http://cdn2.momjunction.com/wp-content/uploads/2014/09/The-despicableme-a4.jpg'
@@ -22,7 +22,7 @@ module.exports = [
             img: 'http://www.purse-hanger.com/wp-content/uploads/2018/01/coloring-sheets-for-kids-colouring-pages-for-kids-free-free-coloring-pages-kids-print-naruto-colored-pages.jpg'
         },
         {
-            img: 'http://www.purse-hanger.com/wp-content/uploads/2018/01/coloring-sheets-for-kids-best-25-coloring-pages-for-kids-ideas-on-pinterest-kids-bunny-coloring-book.jpg'
+            img: 'http://greendotdesigninc.com/wp-content/uploads/2018/04/coloring-pages-for-boys-fresh-page-nice-printable-boy.jpg'
         },
         {
             img: 'http://www.purse-hanger.com/wp-content/uploads/2018/01/coloring-sheets-for-kids-best-25-coloring-pages-for-kids-ideas-on-pinterest-kids-baby-pony-coloring-pages.jpg'

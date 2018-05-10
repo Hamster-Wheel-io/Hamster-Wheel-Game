@@ -372,3 +372,13 @@ and (-webkit-min-device-pixel-ratio: 1) {
 .info {
     padding-top: 31px;
 }
+
+.mockimg {
+  height: 520px;
+  width: 581px
+  position: fixed;
+}
+
+.appstore {
+  height: 98px;
+}
