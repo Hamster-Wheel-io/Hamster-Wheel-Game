@@ -374,11 +374,27 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 .mockimg {
-  height: 520px;
+  height: 600px;
   width: 581px
   position: fixed;
 }
 
 .appstore {
   height: 98px;
+}
+
+#area {
+    left: 455px;
+    top: 150px;
+}
+
+#mock {
+  right: 110px;
+  bottom: 71px;
+}
+
+.section.text-center.landing-section {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  bottom: 88px;
 }
